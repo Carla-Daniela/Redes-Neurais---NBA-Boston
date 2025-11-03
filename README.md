@@ -1,13 +1,12 @@
 # 🏀 Celtics Stats Analyzer  
-## Regressão Linear - Primeira Parte da Atividade
-
 ### Desenvolvido por:
 - [Carla Daniela](https://github.com/Carla-Daniela)
 - [Letícia Lívia](https://github.com/mymph)  
 - [Tayane Cibely](https://github.com/TayaneCibely)
 
-## Acesso
-**Live Demo:** [https://boston-celtics--regressao-linear.streamlit.app/](https://boston-celtics--regressao-linear.streamlit.app/)
+## Regressão Linear - Primeira Parte da Atividade
+
+### Acesso [https://boston-celtics--regressao-linear.streamlit.app/](https://boston-celtics--regressao-linear.streamlit.app/)
 
 ## Especificações
 - **Time**: Boston Celtics
