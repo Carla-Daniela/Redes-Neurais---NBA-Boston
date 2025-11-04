@@ -217,7 +217,7 @@ st.markdown("### 📊 Regressão Logística - Previsão de Vitórias")
 st.markdown("""
 <div class="stats-card">
     <h4 style="margin:0; color: #007A33;">📊 Sobre a Regressão Logística</h4>
-    <p style="margin:5px 0; font-size: 0.9rem;">
+    <p style="margin:5px 0; color: #000000; font-size: 1.0rem;">
     • Produz uma curva em forma de "S" (Sigmoide) entre 0 e 1<br>
     • O eixo Y representa a <b>probabilidade</b> do evento ocorrer<br>
     • Se probabilidade > 0.5: previsão de VITÓRIA (1)<br>
@@ -290,7 +290,7 @@ try:
         <div class="stats-card">
             <h4 style="margin:0; color: #007A33;">Acurácia</h4>
             <h2 style="margin:0; color: #007A33;">{accuracy:.1%}</h2>
-            <p style="margin:0; font-size: 0.8rem;">Precisão do modelo</p>
+            <p style="margin:0; color: #000000; font-size: 0.8rem;">Precisão do modelo</p>
         </div>
         """, unsafe_allow_html=True)
     
@@ -299,7 +299,7 @@ try:
         <div class="stats-card">
             <h4 style="margin:0; color: #007A33;">AUC-ROC</h4>
             <h2 style="margin:0; color: #007A33;">{auc_score:.3f}</h2>
-            <p style="margin:0; font-size: 0.8rem;">Capacidade de discriminação</p>
+            <p style="margin:0; color: #000000; font-size: 0.8rem;">Capacidade de discriminação</p>
         </div>
         """, unsafe_allow_html=True)
     
@@ -311,7 +311,7 @@ try:
         <div class="stats-card">
             <h4 style="margin:0; color: #007A33;">Recall</h4>
             <h2 style="margin:0; color: #007A33;">{recall:.1%}</h2>
-            <p style="margin:0; font-size: 0.8rem;">Vitórias identificadas</p>
+            <p style="margin:0; color: #000000; font-size: 0.8rem;">Vitórias identificadas</p>
         </div>
         """, unsafe_allow_html=True)
     
@@ -321,7 +321,7 @@ try:
         <div class="stats-card">
             <h4 style="margin:0; color: #007A33;">Previsões</h4>
             <h2 style="margin:0; color: #007A33;">{previsoes_vitoria}/{len(y_pred_log)}</h2>
-            <p style="margin:0; font-size: 0.8rem;">Vitórias previstas</p>
+            <p style="margin:0;  color: #000000; font-size: 0.8rem;">Vitórias previstas</p>
         </div>
         """, unsafe_allow_html=True)
     
@@ -502,7 +502,7 @@ try:
             st.error(f"## 💔 Probabilidade de Vitória: {proba:.1%}")
         
         st.markdown(f"""
-        <div class="stats-card">
+        <div style='color: #000000';  class="stats-card">
             <h4>📊 Detalhes da Previsão:</h4>
             <p>• <b>Probabilidade</b>: {proba:.1%}</p>
             <p>• <b>Limite de decisão</b>: 50%</p>
