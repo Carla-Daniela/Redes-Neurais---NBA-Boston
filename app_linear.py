@@ -221,7 +221,7 @@ with col1:
     <div class="stats-card">
         <h4 style="margin:0; color: #007A33;">R² Score</h4>
         <h2 style="margin:0; color: #007A33;">{r2:.3f}</h2>
-        <p style="margin:0; font-size: 0.8rem;">Quanto mais próximo de 1, melhor</p>
+        <p style="margin:0; color: #000000; font-size: 0.8rem;">Quanto mais próximo de 1, melhor</p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -230,7 +230,7 @@ with col2:
     <div class="stats-card">
         <h4 style="margin:0; color: #007A33;">RMSE</h4>
         <h2 style="margin:0; color: #007A33;">{rmse:.2f}</h2>
-        <p style="margin:0; font-size: 0.8rem;">Raiz do Erro Quadrático Médio</p>
+        <p style="margin:0; color: #000000; font-size: 0.8rem;">Raiz do Erro Quadrático Médio</p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -239,7 +239,7 @@ with col3:
     <div class="stats-card">
         <h4 style="margin:0; color: #007A33;">MSE</h4>
         <h2 style="margin:0; color: #007A33;">{mse:.2f}</h2>
-        <p style="margin:0; font-size: 0.8rem;">Erro Quadrático Médio</p>
+        <p style="margin:0; color: #000000;  font-size: 0.8rem;">Erro Quadrático Médio</p>
     </div>
     """, unsafe_allow_html=True)
 
